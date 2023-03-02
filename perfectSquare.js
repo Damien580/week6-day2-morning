@@ -12,6 +12,7 @@ function square(num){
 console.log(square(9))
 
 console.log('=========================================================')
+
 const nextPerfect = (num) => {
     if (Number.isInteger(Math.sqrt(num))){
         let next = Math.sqrt(num) + 1
